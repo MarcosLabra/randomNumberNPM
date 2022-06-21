@@ -1,6 +1,6 @@
 {
-  "name": "@labra.marcos/random-num-gen-v2",
-  "version": "1.0.10",
+  "name": "random-num-gen-v2",
+  "version": "1.0.13",
   "description": "return random int number",
   "main": "src/index.js",
   "keywords": [
@@ -9,7 +9,7 @@
     "generator"
   ],
   "bin": {
-    "random": "bin/index.js"
+    "random": "bin/randomNumber.js"
   },
   "scripts": {
     "start": "node ./bin/index.js"
