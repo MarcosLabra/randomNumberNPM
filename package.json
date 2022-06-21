@@ -1,0 +1,19 @@
+{
+  "name": "@labra.marcos/random-num-gen-v2",
+  "version": "1.0.10",
+  "description": "return random int number",
+  "main": "src/index.js",
+  "keywords": [
+    "random",
+    "number",
+    "generator"
+  ],
+  "bin": {
+    "random": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node ./bin/index.js"
+  },
+  "author": "Marcos Labra",
+  "license": "MIT"
+}
