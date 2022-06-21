@@ -15,7 +15,7 @@ Then use it like a function
 
 ### arguments
 
-when you run it can add a min and a max number with argv, if not it will give you a integer number within 0 and 1000
+when you run it can add a min(included) and a max(excluded) number with argv , if not it will give you a integer number within 0 and 1000
 
     node {yourFile.js}  {min} {max}
 
