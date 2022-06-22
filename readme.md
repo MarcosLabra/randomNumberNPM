@@ -10,19 +10,16 @@
 
 Then use it like a function
 
-    console.log (random())
-    //{the random number}
+    console.log (random({min},{max}))
+    //output: {the random number}
 
 ### arguments
 
-when you run it can add a min(included) and a max(excluded) number with argv , if not it will give you a integer number within 0 and 1000
-
-    node {yourFile.js}  {min} {max}
-
+Add a min(included) and a max(excluded) number, if not it will give you a integer number within 0 and 1000
 
 ### NPX
 
-It can also be used without npm i and requiered (argument can be used as well)
+It can also be used without npm i and requiered (argument can be used as well with argv)
 
     npx random-num-gen-v2 {min} {max}
 

@@ -1,9 +1,9 @@
-module.exports = function getRandomInt() {
-    if (Number(process.argv[2]) > Number(process.argv[3])) {
+module.exports = function getRandomInt(min, max) {
+    if (min > max) {
         throw new Error('min must be less than max')
     }
-    if (process.argv[2] !== undefined && process.argv[3] !== undefined) {
-        return (Math.floor(Math.random() * (Number(process.argv[3]) - Number(process.argv[2]))) + Number(process.argv[2]));
+    if (min !== undefined && max !== undefined) {
+        return (Math.floor(Math.random() * (max - Number(min))) + Number(min));
     } else {
         return (Math.floor(Math.random() * 1001))
     }
